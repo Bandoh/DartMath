@@ -1,3 +1,5 @@
-int calculate() {
-  return 6 * 7;
+import 'dart:math';
+
+class DartMath{
+  DartMath();
 }
