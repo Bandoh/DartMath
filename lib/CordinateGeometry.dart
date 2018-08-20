@@ -11,11 +11,6 @@ class Cordinates {
 }
 
 class CordinateGeometry extends DartMath {
-  var _x1;
-  var _y1;
-  var _x2;
-  var _y2;
-
   CordinateGeometry();
 
   //Slope of a Straight line
