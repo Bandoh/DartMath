@@ -1,10 +1,20 @@
 import 'package:DartMath/CordinateGeometry.dart';
-import 'package:DartMath/DartMath.dart' as DartMath;
+import 'package:DartMath/DartMath.dart';
+import 'package:DartMath/Fractions.dart';
 
 main(List<String> arguments) {
+
+ //DartMath dartmath = new DartMath();
+ Fractions fractions = new Fractions(7,2);
+ print('The quotient of 7 / 2 is ${fractions.getquotient()}');
+ print('The Remainder of 7 / 2 is ${fractions.getremainder()}');
+
+
+
+
   //Intantiate Line Object
-  Line l1 = new Line(1.0, 2.0, 3.0);
-  Line l2 = new Line(1.0, -0.5, 7.0);
+  Line l1 = new Line(y:1.0, gradient:2.0, intercept:3.0);
+  Line l2 = new Line(y:1.0, gradient:-0.5,intercept:  7.0);
 
 //Intanciate Cordinates Object
   Cordinates p1 = new Cordinates(1.0, 1.0);

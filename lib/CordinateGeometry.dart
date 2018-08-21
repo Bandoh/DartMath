@@ -25,7 +25,7 @@ class Line {
   double _m;
   double _x;
   double _c;
-  Line(double y, double gradient, double intercept, {double x}) {
+  Line({double y, double gradient, double intercept, double x}) {
     this._y = y;
     this._m = gradient;
     this._x = x;
