@@ -1,9 +1,7 @@
-import 'package:DartMath/cordinates.dart';
-import 'package:DartMath/dart_math.dart';
-import 'dart:math';
-import 'package:DartMath/lines.dart';
+import 'package:dart_math/cordinates.dart';
+import 'package:dart_math/dart_math.dart';
 
-class CordinateGeometry extends DartMath {
+class CordinateGeometry {
   //point field
   Map<String, double> _point2;
   Map<String, double> _point1;

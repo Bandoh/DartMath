@@ -1,6 +1,4 @@
-import 'package:DartMath/cordinates.dart';
-import 'package:DartMath/fractions.dart';
-import 'package:DartMath/lines.dart';
+import 'package:dart_math/dart_math.dart';
 
 main(List<String> arguments) {
   //Intantiate a Fraction Object

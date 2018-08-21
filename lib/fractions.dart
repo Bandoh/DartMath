@@ -1,6 +1,6 @@
-import 'package:DartMath/dart_math.dart';
+import 'package:dart_math/dart_math.dart';
 
-class Fraction extends DartMath {
+class Fraction {
   double _nominator;
   double _denominator;
 
