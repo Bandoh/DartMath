@@ -1,8 +1,8 @@
 name: DartMath
-description: A sample command-line application.
+description: A Simple Math Library for Flutter
 version: 0.0.1
-#homepage: https://www.example.com
-#author: Bandoh <email@example.com>
+homepage: https://github.com/Bandoh/DartMath.git
+author: Bandoh <kelquans@gmail.com>
 
 environment:
   sdk: '>=1.20.1 <2.0.0'

@@ -1,7 +1,7 @@
-import 'package:DartMath/Cordinates.dart';
-import 'package:DartMath/DartMath.dart';
+import 'package:DartMath/cordinates.dart';
+import 'package:DartMath/dart_math.dart';
 import 'dart:math';
-import 'package:DartMath/Lines.dart';
+import 'package:DartMath/lines.dart';
 
 class CordinateGeometry extends DartMath {
   //point field
