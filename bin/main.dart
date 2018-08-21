@@ -1,7 +1,5 @@
-import 'package:DartMath/cordinate_geometry.dart';
 import 'package:DartMath/cordinates.dart';
 import 'package:DartMath/fractions.dart';
-import 'package:DartMath/gradient.dart';
 import 'package:DartMath/lines.dart';
 
 main(List<String> arguments) {
