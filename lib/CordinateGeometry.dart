@@ -25,4 +25,13 @@ class CordinateGeometry extends DartMath {
     double sum = x + y;
     return sqrt(sum);
   }
+
+  double getradius(Cordinates a,Cordinates b){
+    return getdistance(a, b);
+  }
+
+  double getyintercept(Cordinates a,Cordinates b){
+    var slope = getslope(a, b);
+    return (a._y)-(slope*a._x);
+  }
 }
