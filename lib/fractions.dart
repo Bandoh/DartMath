@@ -1,4 +1,3 @@
-import 'package:dart_math/dart_math.dart';
 
 class Fraction {
   double _nominator;
