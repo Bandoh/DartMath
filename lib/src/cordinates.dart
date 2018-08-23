@@ -1,9 +1,9 @@
 //Cordinate Class to handle all cordinates
 
 import 'dart:math';
-import 'package:dart_math/gradient.dart';
-import 'package:dart_math/lines.dart';
-export 'package:dart_math/dart_math.dart';
+import 'package:dart_math/src/gradient.dart';
+import 'package:dart_math/src/lines.dart';
+export 'package:dart_math/src/dart_math.dart';
 
 class Cordinates {
   double _x;

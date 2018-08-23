@@ -1,4 +1,4 @@
-import 'package:dart_math/dart_math.dart';
+import 'package:dart_math/src/dart_math.dart';
 
 main(List<String> arguments) {
   //Intantiate a Fraction Object

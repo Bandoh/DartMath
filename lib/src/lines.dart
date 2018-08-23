@@ -1,6 +1,6 @@
 //Creating Class for equation of line
 
-import 'package:dart_math/cordinates.dart';
+import 'package:dart_math/src/cordinates.dart';
 
 class Line {
   double _y;

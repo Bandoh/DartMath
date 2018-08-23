@@ -1,4 +1,3 @@
-
 class Fraction {
   double _nominator;
   double _denominator;
@@ -55,6 +54,7 @@ class Fraction {
         this._denominator * secfrac._denominator);
     return fraction;
   }
+
   Fraction fracDiv(Fraction secfrac) {
     Fraction fraction = new Fraction(this._nominator * secfrac._denominator,
         this._denominator * secfrac._nominator);
