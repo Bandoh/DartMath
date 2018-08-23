@@ -1,9 +1,9 @@
 //Cordinate Class to handle all cordinates
 
 import 'dart:math';
-import 'package:dart_math/src/gradient.dart';
-import 'package:dart_math/src/lines.dart';
-export 'package:dart_math/src/dart_math.dart';
+import 'package:dart_math/src/geometry/gradient.dart';
+import 'package:dart_math/src/geometry/lines.dart';
+export 'package:dart_math/dart_math.dart';
 
 class Cordinates {
   double _x;
@@ -20,12 +20,11 @@ class Cordinates {
   }
 
   //Slope of a Straight line
-  Gradient getslope(Cordinates point1 ) {
+  Gradient getslope(Cordinates point1) {
     Gradient gradient;
-    gradient = new Gradient((point1._y-this._y)/(this._x-this._x));
+    gradient = new Gradient((point1._y - this._y) / (this._x - this._x));
     return gradient;
   }
-
 
   //returns Distance between 2 points
   double getdistance(Cordinates point1) {
@@ -34,10 +33,12 @@ class Cordinates {
     double sum = x + y;
     return sqrt(sum);
   }
-  Line toLine(Cordinates pointa){
-    Line line ;
+
+  Line toLine(Cordinates pointa) {
+    Line line;
     Gradient gradient = new Gradient(this.getslope(pointa).getGradient());
-    line = new Line(x:pointa._x,gradient: gradient.getGradient(),y: pointa._y);
+    line =
+        new Line(x: pointa._x, gradient: gradient.getGradient(), y: pointa._y);
     return line;
   }
 }

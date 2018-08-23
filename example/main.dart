@@ -1,4 +1,4 @@
-import 'package:dart_math/src/dart_math.dart';
+import 'package:dart_math/dart_math.dart';
 
 main(List<String> arguments) {
   //Intantiate a Fraction Object
@@ -33,4 +33,11 @@ main(List<String> arguments) {
   print(l1.intersection(l2).toLine(p1).intersection(l3));
   cord = inter.getcordinates();
   print('These Lines intersect at $cord');
+
+
+
+  //Startof Algebra
+  Quadratic quadratic = new Quadratic(2.0, -1.0, -1.0);
+  print(quadratic.discriminant());
+  print(quadratic.roots());
 }

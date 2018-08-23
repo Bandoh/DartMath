@@ -1,6 +1,6 @@
 //Creating Class for equation of line
 
-import 'package:dart_math/src/cordinates.dart';
+import 'package:dart_math/src/geometry/cordinates.dart';
 
 class Line {
   double _y;
@@ -14,19 +14,18 @@ class Line {
     this._c = intercept;
   }
 
-  Map<String,double> getLineEqn(){
-    final Map<String,double> eqn = {
-      'y':this._y,
-      'gradient':this._m,
+  Map<String, double> getLineEqn() {
+    final Map<String, double> eqn = {
+      'y': this._y,
+      'gradient': this._m,
       'x': this._x,
       'intercept': this._c
     };
     return eqn;
   }
 
-
   //Returns Cordinates if they intersect else returns null
-  Cordinates intersection(Line line1 ) {
+  Cordinates intersection(Line line1) {
     try {
       double top = line1._c - this._c;
       double bottom = line1._m - this._m;
@@ -42,7 +41,7 @@ class Line {
 
   //Gets Y-intercept from points
   double getyintercept() {
-    this._c = this._y - (this._m*this._x);
+    this._c = this._y - (this._m * this._x);
     return this._c;
   }
 }
