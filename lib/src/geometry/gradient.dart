@@ -1,4 +1,4 @@
-import 'dart:math';
+part of geometry;
 
 class Gradient {
   double _gradient;

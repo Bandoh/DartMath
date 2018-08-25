@@ -1,5 +1,5 @@
+import 'package:dart_math/algebra.dart';
 import 'package:dart_math/dart_math.dart';
-
 main(List<String> arguments) {
   //Intantiate a Fraction Object
   Fraction fractions = new Fraction(3.0, 2.0);

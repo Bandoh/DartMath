@@ -1,3 +1,4 @@
+part of geometry;
 class Fraction {
   double _nominator;
   double _denominator;

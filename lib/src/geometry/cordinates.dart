@@ -1,10 +1,15 @@
 //Cordinate Class to handle all cordinates
+part of geometry;
 
-import 'dart:math';
-import 'package:dart_math/src/geometry/gradient.dart';
-import 'package:dart_math/src/geometry/lines.dart';
-export 'package:dart_math/dart_math.dart';
-
+/* This is a class called Cordinates for cordinates functions
+vhsdjfhask
+sajkfhjfkahdfjasdhfkjsd
+djkdhfjkdsfhjksadf
+djndsn
+fdjakfnjakfha;hdhsa
+jfhadsjkfhoifhdhsknclsjcn
+asjhvuiahfuiahuahdhaiilihkdlhbakbhnboaiboa
+hsjdkh vhashkvhjk hsljlalkjaji ojkslaj */
 class Cordinates {
   double _x;
   double _y;

@@ -1,4 +1,4 @@
-import 'dart:math';
+part of algebra;
 
 class Quadratic {
   double _a;
