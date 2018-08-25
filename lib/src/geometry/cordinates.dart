@@ -1,19 +1,9 @@
-//Cordinate Class to handle all cordinates
 part of geometry;
 
-/* This is a class called Cordinates for cordinates functions
-vhsdjfhask
-sajkfhjfkahdfjasdhfkjsd
-djkdhfjkdsfhjksadf
-djndsn
-fdjakfnjakfha;hdhsa
-jfhadsjkfhoifhdhsknclsjcn
-asjhvuiahfuiahuahdhaiilihkdlhbakbhnboaiboa
-hsjdkh vhashkvhjk hsljlalkjaji ojkslaj */
 class Cordinates {
   double _x;
   double _y;
-  Cordinates(double x, double y) {
+  Cordinates({double x, double y}) {
     this._x = x;
     this._y = y;
   }
@@ -22,6 +12,11 @@ class Cordinates {
   Map<String, double> getcordinates() {
     final Map<String, double> cordinates = {'x': this._x, 'y': this._y};
     return cordinates;
+  }
+
+  Cordinates getY(Line line) {
+    Cordinates c = new Cordinates(y: (line._m * this._x) + line._c, x: this._x);
+    return c;
   }
 
   //Slope of a Straight line

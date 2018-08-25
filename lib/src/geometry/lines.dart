@@ -32,7 +32,7 @@ class Line {
       double x = top / bottom;
       double y;
       y = (this._m * x) + (this._c);
-      Cordinates cordinate = new Cordinates(x, y);
+      Cordinates cordinate = new Cordinates(x: x, y: y);
       return cordinate;
     } catch (e) {
       return null;

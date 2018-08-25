@@ -19,8 +19,8 @@ main(List<String> arguments) {
   Line l3 = new Line(y: 1.0, gradient: 2.0, x: 1.0);
 
 //Intanciate Cordinates Object
-  Cordinates p1 = new Cordinates(1.0, 1.0);
-  Cordinates p2 = new Cordinates(2.0, 3.0);
+  Cordinates p1 = new Cordinates(x:1.0, y:1.0);
+  Cordinates p2 = new Cordinates(x:2.0, y:3.0);
 
   print('This is distance ${p1.getdistance(p2)}');
   print('This is Slope ${p1.getslope(p2)}');
