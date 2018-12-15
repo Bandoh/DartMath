@@ -23,14 +23,14 @@ main(List<String> arguments) {
   Cordinates p2 = new Cordinates(x:2.0, y:3.0);
 
   print('This is distance ${p1.getdistance(p2)}');
-  print('This is Slope ${p1.getslope(p2)}');
-  print('This is y intercept ${l3.getyintercept()}');
+  print('This is Slope ${p1.getslope(p2).getGradient()}');
+  print('This is y intercept ${l3.findYintercept()}');
 
   Cordinates inter;
   Map<String, double> cord;
   //get intersection of two lines
   inter = l1.intersection(l2);
-  print(l1.intersection(l2).toLine(p1).intersection(l3));
+  print(l1.intersection(l2).toLine(p1).findYintercept());
   cord = inter.getcordinates();
   print('These Lines intersect at $cord');
 

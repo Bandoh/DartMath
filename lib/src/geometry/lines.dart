@@ -40,7 +40,7 @@ class Line {
   }
 
   //Gets Y-intercept from points
-  double getyintercept() {
+  double findYintercept() {
     this._c = this._y - (this._m * this._x);
     return this._c;
   }

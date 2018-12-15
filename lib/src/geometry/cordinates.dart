@@ -10,11 +10,13 @@ class Cordinates {
 
   //gets cordinates into an array
   Map<String, double> getcordinates() {
-    final Map<String, double> cordinates = {'x': this._x, 'y': this._y};
+    Map<String, double> cordinates = {'x': this._x, 'y': this._y};
     return cordinates;
   }
 
-  Cordinates getY(Line line) {
+  Cordinates findY(Line line) {
+    this._y =  (line._m * this._x) + line._c;
+    this._x = this._x;
     Cordinates c = new Cordinates(y: (line._m * this._x) + line._c, x: this._x);
     return c;
   }
@@ -22,7 +24,7 @@ class Cordinates {
   //Slope of a Straight line
   Gradient getslope(Cordinates point1) {
     Gradient gradient;
-    gradient = new Gradient((point1._y - this._y) / (this._x - this._x));
+    gradient = new Gradient((point1._y - this._y) / (point1._x - this._x));
     return gradient;
   }
 

@@ -25,7 +25,7 @@ main(List<String> arguments) {
 
   print('This is distance ${p1.getdistance(p2)}');
   print('This is Slope ${p1.getslope(p2)}');
-  print('This is y intercept ${l3.getyintercept()}');
+  print('This is y intercept ${l3.findYintercept()}');
 
   Cordinates inter;
   Map<String, double> cord;
@@ -42,7 +42,7 @@ main(List<String> arguments) {
 
   Line l = new Line(gradient: 2.0, intercept: 2.0, x: 3.0);
   Cordinates c = Cordinates(x: 3.0);
-  print('Get y value given X ${c.getY(l).getcordinates()}');
+  print('Get y value given X ${c.findY(l).getcordinates()}');
 
 //point of intersection between circle and Line
   Circle c1 = new Circle(

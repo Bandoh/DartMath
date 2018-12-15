@@ -25,7 +25,7 @@ class Circle {
     List<Cordinates> cordinates = [];
     for (int i = 0; i < q.roots().length; i++) {
       cordinates.add(new Cordinates(x: q.roots()[i]));
-      cordinates[i]._y = cordinates[i].getY(l)._y;
+      cordinates[i]._y = cordinates[i].findY(l)._y;
     }
     return cordinates;
   }
