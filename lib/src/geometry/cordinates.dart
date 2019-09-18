@@ -15,7 +15,7 @@ class Cordinates {
   }
 
   Cordinates findY(Line line) {
-    this._y =  (line._m * this._x) + line._c;
+    this._y = (line._m * this._x) + line._c;
     this._x = this._x;
     Cordinates c = new Cordinates(y: (line._m * this._x) + line._c, x: this._x);
     return c;
